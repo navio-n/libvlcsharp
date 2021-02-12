@@ -262,7 +262,7 @@
                                                                AutomationProperties.AccessibilityView="Raw">
                                                             <ToolTipService.ToolTip>
                                                                 <ToolTip x:Name="ThumbnailTooltip">
-                                                                    <ContentPresenter Content="{Binding}" />
+                                                                    <ContentControl Content="{Binding}" />
                                                                 </ToolTip>
                                                             </ToolTipService.ToolTip>
                                                             <Thumb.DataContext>
