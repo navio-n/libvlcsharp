@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Title>LibVLCSharp.Uno</Title>
     <Summary>Uno integration for LibVLCSharp</Summary>
-    <TargetFrameworks>Xamarin.iOS10;MonoAndroid10.0</TargetFrameworks>
+    <TargetFrameworks>Xamarin.iOS10;MonoAndroid10.0;MonoAndroid11.0</TargetFrameworks>
     <TargetFrameworks Condition="$([MSBuild]::IsOsPlatform('Windows'))">$(TargetFrameworks);uap10.0.16299</TargetFrameworks>
     <GenerateLibraryLayout>true</GenerateLibraryLayout>
     <Description>LibVLCSharp.Uno is the integration of LibVLCSharp with the Uno Platform on Windows, iOS and Android.
